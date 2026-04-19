@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Pulse — Social Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- SPLASH -->
+  <div id="splash">
+    <div class="splash-bg"></div>
+    <div class="splash-content">
+      <div class="splash-logo-wrap">
+        <div class="splash-icon">
+          <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="28" cy="28" r="26" fill="url(#sg)" opacity="0.18"/>
+            <path d="M16 28 Q28 11 40 28 Q28 45 16 28Z" fill="url(#sg)"/>
+            <circle cx="28" cy="28" r="5" fill="#fff"/>
+            <defs>
+              <linearGradient id="sg" x1="0" y1="0" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#C4B5FD"/>
+                <stop offset="1" stop-color="#7F77DD"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="splash-wordmark">Pulse</div>
+      </div>
+      <div class="splash-tagline">your world, live</div>
+      <div class="splash-progress">
+        <div class="splash-bar" id="splashBar"></div>
+      </div>
+    </div>
+    <div class="splash-footer">v3 · made with ✦</div>
+  </div>
+
+  <!-- SKELETON -->
+  <div id="skeleton" class="sk-hidden">
+    <div class="sk-shell">
+      <div class="sk-topbar">
+        <div class="sk-logo-area">
+          <div class="sk-circle" style="width:26px;height:26px"></div>
+          <div class="sk-block" style="width:55px;height:18px;border-radius:6px"></div>
+        </div>
+        <div class="sk-search-area">
+          <div class="sk-block" style="width:180px;height:28px;border-radius:16px"></div>
+        </div>
+        <div class="sk-icons-area">
+          <div class="sk-circle" style="width:30px;height:30px"></div>
+          <div class="sk-circle" style="width:30px;height:30px"></div>
+          <div class="sk-circle" style="width:30px;height:30px"></div>
+        </div>
+      </div>
+      <div class="sk-nav">
+        <div class="sk-block" style="width:52px;height:40px;border-radius:4px"></div>
+        <div class="sk-block" style="width:52px;height:40px;border-radius:4px"></div>
+        <div class="sk-block" style="width:52px;height:40px;border-radius:4px"></div>
+        <div class="sk-block" style="width:52px;height:40px;border-radius:4px"></div>
+        <div class="sk-block" style="width:52px;height:40px;border-radius:4px"></div>
+        <div class="sk-block" style="width:52px;height:40px;border-radius:4px"></div>
+      </div>
+      <div class="sk-body">
+        <div class="sk-stories">
+          <div class="sk-story-item"><div class="sk-circle" style="width:46px;height:46px"></div><div class="sk-block" style="width:40px;height:7px;border-radius:4px;margin-top:5px"></div></div>
+          <div class="sk-story-item"><div class="sk-circle" style="width:46px;height:46px"></div><div class="sk-block" style="width:40px;height:7px;border-radius:4px;margin-top:5px"></div></div>
+          <div class="sk-story-item"><div class="sk-circle" style="width:46px;height:46px"></div><div class="sk-block" style="width:40px;height:7px;border-radius:4px;margin-top:5px"></div></div>
+          <div class="sk-story-item"><div class="sk-circle" style="width:46px;height:46px"></div><div class="sk-block" style="width:40px;height:7px;border-radius:4px;margin-top:5px"></div></div>
+          <div class="sk-story-item"><div class="sk-circle" style="width:46px;height:46px"></div><div class="sk-block" style="width:40px;height:7px;border-radius:4px;margin-top:5px"></div></div>
+        </div>
+        <div class="sk-feed">
+          <div class="sk-post">
+            <div class="sk-post-head">
+              <div class="sk-circle" style="width:34px;height:34px"></div>
+              <div class="sk-lines"><div class="sk-block" style="width:100px;height:10px;border-radius:5px"></div><div class="sk-block" style="width:65px;height:8px;border-radius:4px;margin-top:5px"></div></div>
+            </div>
+            <div class="sk-block" style="width:100%;height:100px;border-radius:0;margin:8px 0"></div>
+            <div style="padding:0 12px 10px;display:flex;flex-direction:column;gap:6px">
+              <div class="sk-block" style="width:90%;height:9px;border-radius:4px"></div>
+              <div class="sk-block" style="width:70%;height:9px;border-radius:4px"></div>
+            </div>
+          </div>
+          <div class="sk-post">
+            <div class="sk-post-head">
+              <div class="sk-circle" style="width:34px;height:34px"></div>
+              <div class="sk-lines"><div class="sk-block" style="width:85px;height:10px;border-radius:5px"></div><div class="sk-block" style="width:60px;height:8px;border-radius:4px;margin-top:5px"></div></div>
+            </div>
+            <div style="padding:4px 12px 10px;display:flex;flex-direction:column;gap:6px">
+              <div class="sk-block" style="width:100%;height:9px;border-radius:4px"></div>
+              <div class="sk-block" style="width:80%;height:9px;border-radius:4px"></div>
+              <div class="sk-block" style="width:55%;height:9px;border-radius:4px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- APP -->
+  <div id="app" class="app-hidden">
+    <div class="toast" id="toast"></div>
+    <div class="shell">
+      <div class="topbar">
+        <div class="topbar-logo-wrap">
+          <svg class="logo-svg" viewBox="0 0 24 24" fill="none">
+            <path d="M6 12 Q12 4 18 12 Q12 20 6 12Z" fill="url(#appLg)"/>
+            <circle cx="12" cy="12" r="2.8" fill="#fff"/>
+            <defs>
+              <linearGradient id="appLg" x1="0" y1="0" x2="24" y2="24">
+                <stop stop-color="#C4B5FD"/>
+                <stop offset="1" stop-color="#7F77DD"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <span class="logo">Pulse</span>
+        </div>
+        <div class="search-wrap"><input type="text" placeholder="Search..." id="globalSearch" /></div>
+        <div class="top-right">
+          <!-- Theme Toggle -->
+          <button class="theme-toggle" id="themeToggle" title="Toggle dark/light mode" aria-label="Toggle theme">🌙</button>
+          <button class="ib" onclick="go('dm')">✉️</button>
+          <button class="ib" onclick="go('notifs')">🔔<span class="ndot"></span></button>
+          <button class="ib" onclick="go('profile')">👤</button>
+        </div>
+      </div>
+      <div class="nav" id="nav">
+        <button class="ntab on" data-t="home"><span class="ni">🏠</span>Home</button>
+        <button class="ntab" data-t="reels"><span class="ni">🎬</span>Reels</button>
+        <button class="ntab" data-t="live"><span class="ni">📡</span>Live</button>
+        <button class="ntab" data-t="explore"><span class="ni">🔍</span>Explore</button>
+        <button class="ntab" data-t="games"><span class="ni">🎮</span>Games</button>
+        <button class="ntab" data-t="notifs"><span class="ni">🔔</span>Alerts</button>
+        <button class="ntab" data-t="profile"><span class="ni">👤</span>Profile</button>
+        <button class="ntab" data-t="dm"><span class="ni">✉️</span>DMs</button>
+      </div>
+      <div class="body">
+        <div class="panel on" id="p-home"></div>
+        <div class="panel" id="p-reels"></div>
+        <div class="panel" id="p-live"></div>
+        <div class="panel" id="p-explore"></div>
+        <div class="panel" id="p-games"></div>
+        <div class="panel" id="p-notifs"></div>
+        <div class="panel" id="p-profile"></div>
+        <div class="panel" id="p-dm"></div>
+        <div class="panel" id="p-comments"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
